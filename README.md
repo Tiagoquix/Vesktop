@@ -1,19 +1,19 @@
 # Vesktop
+<img align="right" width="64" src="https://raw.githubusercontent.com/Vencord/Vesktop/main/static/shiggy.gif">
+<img align="right" width="64" src="https://raw.githubusercontent.com/Vencord/Vesktop/main/static/icon.png">
 
 Vesktop is a custom Discord desktop app.
 
-**Main features**:
+### Main features
 - Vencord pre-installed.
 - Much more lightweight and faster than the official Discord app.
 - Linux screenshare with sound and Wayland compatibility.
 - Much better privacy, since Discord has no access to your system.
+- Fixes scroll issues and other issues/nuisances present on the official Discord app for Linux.
 
-**Not yet supported**:
+### Not yet supported
 - Global keybinds.
 - For other things, see the [roadmap](https://github.com/Vencord/Vesktop/issues/324).
-
-![](https://github.com/Vencord/Vesktop/assets/45497981/8608a899-96a9-4027-9725-2cb02ba189fd)
-![](https://github.com/Vencord/Vesktop/assets/45497981/8701e5de-52c4-4346-a990-719cb971642e)
 
 ## Installing
 
@@ -38,7 +38,8 @@ Flathub provides both `amd64` (`x86_64`) and `arm64` (`aarch64`) builds on a sin
 [![Download on Flathub](https://dl.flathub.org/assets/badges/flathub-badge-en.svg)](https://flathub.org/apps/dev.vencord.Vesktop)
 
 If you prefer a native package for your distribution, check the list below.
-To check which version is appropriate for you, type `uname -m` in a terminal window.
+
+To check which version is appropriate for your system, type `uname -m` in a terminal window.
 
 - `amd64` (`x86_64`)
   - [AppImage](https://vencord.dev/download/vesktop/amd64/appimage)
@@ -81,3 +82,8 @@ pnpm package --linux pacman
 # Or package to a directory only
 pnpm package:dir
 ```
+
+## Screenshots
+
+![](https://github.com/Vencord/Vesktop/assets/45497981/8608a899-96a9-4027-9725-2cb02ba189fd)
+![](https://github.com/Vencord/Vesktop/assets/45497981/8701e5de-52c4-4346-a990-719cb971642e)
