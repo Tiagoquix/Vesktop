@@ -1,16 +1,16 @@
 # Vesktop
 
-Vesktop is a custom Discord desktop app
+Vesktop is a custom Discord desktop app.
 
 **Main features**:
-- Vencord preinstalled
-- Much more lightweight and faster than the official Discord app
-- Linux Screenshare with sound & wayland
-- Much better privacy, since Discord has no access to your system
+- Vencord pre-installed.
+- Much more lightweight and faster than the official Discord app.
+- Linux screenshare with sound and Wayland compatibility.
+- Much better privacy, since Discord has no access to your system.
 
 **Not yet supported**:
-- Global Keybinds
-- see the [Roadmap](https://github.com/Vencord/Vesktop/issues/324)
+- Global keybinds
+- For other things, see the [roadmap](https://github.com/Vencord/Vesktop/issues/324).
 
 ![](https://github.com/Vencord/Vesktop/assets/45497981/8608a899-96a9-4027-9725-2cb02ba189fd)
 ![](https://github.com/Vencord/Vesktop/assets/45497981/8701e5de-52c4-4346-a990-719cb971642e)
@@ -19,12 +19,12 @@ Vesktop is a custom Discord desktop app
 
 ### Windows
 
-If you don't know the difference, pick the Installer.
+We recommend the installer.
 
 - [Installer](https://vencord.dev/download/vesktop/amd64/windows)
 - [Portable](https://vencord.dev/download/vesktop/amd64/windows-portable)
 
-### Mac
+### MacOS
 
 If you don't know the difference, pick the Intel build.
 
@@ -33,16 +33,20 @@ If you don't know the difference, pick the Intel build.
 
 ### Linux
 
+Flathub provides both `amd64` (`x86_64`) and `arm64` (`aarch64`) builds on a single standalone.
+
 [![Download on Flathub](https://dl.flathub.org/assets/badges/flathub-badge-en.svg)](https://flathub.org/apps/dev.vencord.Vesktop)
 
-If you don't know the difference, pick amd64.
+If you prefer a native package for your distribution, check the list below.
+To check which version is appropriate for you, type `uname -m` in a terminal window.
 
-- amd64 / x86_64
+- `amd64` (`x86_64`)
   - [AppImage](https://vencord.dev/download/vesktop/amd64/appimage)
   - [Ubuntu/Debian (.deb)](https://vencord.dev/download/vesktop/amd64/deb)
   - [Fedora/RHEL (.rpm)](https://vencord.dev/download/vesktop/amd64/rpm)
   - [tarball](https://vencord.dev/download/vesktop/amd64/tar)
-- arm64 / aarch64
+
+- `arm64` (`aarch64`)
   - [AppImage](https://vencord.dev/download/vesktop/arm64/appimage)
   - [Ubuntu/Debian (.deb)](https://vencord.dev/download/vesktop/arm64/deb)
   - [Fedora/RHEL (.rpm)](https://vencord.dev/download/vesktop/arm64/rpm)
@@ -50,13 +54,13 @@ If you don't know the difference, pick amd64.
 
 #### Community packages
 
-Below you can find unofficial packages created by the community. They are not officially supported by us, so before reporting issues, please first confirm the issue also happens on official builds. When in doubt, consult with their packager first. The flatpak and AppImage should work on any distro that [supports them](https://flatpak.org/setup/), so I recommend you just use those instead!
+There are unofficial packages created by the community. They are not officially supported by us; so, before reporting issues, please first confirm the issue also happens on official builds. When in doubt, consult with their packager first. The Flatpak and AppImage should work on any distro that [supports them](https://flatpak.org/setup/), so I recommend you just use those instead!
 
-- Arch Linux: [Vesktop on the Arch user repository](https://aur.archlinux.org/packages?K=vesktop)
+- Arch Linux: [Vesktop on the Arch User Repository (AUR)](https://aur.archlinux.org/packages?K=vesktop)
 - NixOS: https://nixos.wiki/wiki/Discord#Vesktop
-- Windows - Scoop: https://scoop.sh/#/apps?q=Vesktop
+- Windows (via Scoop): https://scoop.sh/#/apps?q=Vesktop
 
-## Building from Source
+## Building from source
 
 Packaging will create builds in the dist/ folder
 
@@ -64,7 +68,7 @@ Packaging will create builds in the dist/ folder
 git clone https://github.com/Vencord/Vesktop
 cd Vesktop
 
-# Install Dependencies
+# Install dependencies
 pnpm i
 
 # Either run it without packaging
