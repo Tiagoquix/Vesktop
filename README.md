@@ -1,10 +1,12 @@
 # Vesktop
+
 <img align="right" width="64" src="https://raw.githubusercontent.com/Vencord/Vesktop/main/static/shiggy.gif">
 <img align="right" width="64" src="https://raw.githubusercontent.com/Vencord/Vesktop/main/static/icon.png">
 
 Vesktop is a custom Discord desktop app.
 
 ### Main features
+
 - Vencord pre-installed.
 - Much more lightweight and faster than the official Discord app.
 - Linux screenshare with sound and Wayland compatibility.
@@ -12,6 +14,7 @@ Vesktop is a custom Discord desktop app.
 - Fixes scroll issues and other issues/nuisances present on the official Discord app for Linux.
 
 ### Not yet supported
+
 - Global keybinds.
 - For other things, see the [roadmap](https://github.com/Vencord/Vesktop/issues/324).
 
