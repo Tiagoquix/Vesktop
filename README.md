@@ -1,7 +1,7 @@
 # Vesktop
 
 <img align="right" width="64" src="https://raw.githubusercontent.com/Vencord/Vesktop/main/static/shiggy.gif">
-<img align="right" width="64" src="https://raw.githubusercontent.com/Vencord/Vesktop/main/static/icon.png">
+<img align="right" width="64" src="https://avatars.githubusercontent.com/u/113042587">
 
 Vesktop is a custom Discord desktop app.
 
