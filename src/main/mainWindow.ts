@@ -12,6 +12,8 @@ import {
     Menu,
     MenuItemConstructorOptions,
     nativeTheme,
+    screen,
+    session,
     Tray
 } from "electron";
 import { rm } from "fs/promises";
@@ -269,7 +271,9 @@ function getWindowBoundsOptions(): BrowserWindowConstructorOptions {
         height: height ?? DEFAULT_HEIGHT
     } as BrowserWindowConstructorOptions;
 
-    if (x != null && y != null) {
+    const storedDisplay = screen.getAllDisplays().find(display => display.id === State.store.displayid);
+
+    if (x != null && y != null && storedDisplay) {
         options.x = x;
         options.y = y;
     }
@@ -317,6 +321,7 @@ function initWindowBoundsListeners(win: BrowserWindow) {
 
     const saveBounds = () => {
         State.store.windowBounds = win.getBounds();
+        State.store.displayid = screen.getDisplayMatching(State.store.windowBounds).id;
     };
 
     win.on("resize", saveBounds);
@@ -356,12 +361,27 @@ function initSettingsListeners(win: BrowserWindow) {
     addSettingsListener("enableMenu", enabled => {
         win.setAutoHideMenuBar(enabled ?? false);
     });
+
+    addSettingsListener("spellCheckLanguages", languages => initSpellCheckLanguages(win, languages));
+}
+
+async function initSpellCheckLanguages(win: BrowserWindow, languages?: string[]) {
+    languages ??= await win.webContents.executeJavaScript("[...new Set(navigator.languages)]").catch(() => []);
+    if (!languages) return;
+
+    const ses = session.defaultSession;
+
+    const available = ses.availableSpellCheckerLanguages;
+    const applicable = languages.filter(l => available.includes(l)).slice(0, 5);
+    if (applicable.length) ses.setSpellCheckerLanguages(applicable);
 }
 
 function initSpellCheck(win: BrowserWindow) {
     win.webContents.on("context-menu", (_, data) => {
         win.webContents.send(IpcEvents.SPELLCHECK_RESULT, data.misspelledWord, data.dictionarySuggestions);
     });
+
+    initSpellCheckLanguages(win, Settings.store.spellCheckLanguages);
 }
 
 function createMainWindow() {

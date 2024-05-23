@@ -61,7 +61,7 @@ To check which version is appropriate for your system, type `uname -m` in a term
 There are unofficial packages created by the community. They are not officially supported by us; so, before reporting issues, please first confirm the issue also happens on official builds. When in doubt, consult with their packager first. The Flatpak and AppImage should work on any distro that [supports them](https://flatpak.org/setup/), so I recommend you just use those instead!
 
 - Arch Linux: [Vesktop on the Arch User Repository (AUR)](https://aur.archlinux.org/packages?K=vesktop)
-- NixOS: https://nixos.wiki/wiki/Discord#Vesktop
+- NixOS: https://wiki.nixos.org/wiki/Discord#Vesktop
 - Windows (via Scoop): https://scoop.sh/#/apps?q=Vesktop
 
 ## Building from source
