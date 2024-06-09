@@ -5,6 +5,22 @@
 
 Vesktop is a custom Discord desktop app.
 
+## Screenshots
+
+<details>
+<summary>Click to expand</summary>
+
+**Settings page**
+<img src=".github/README_screenshots/settings_page.png">
+
+**Linux screen-share**
+<img src=".github/README_screenshots/linux_screen-share.png">
+
+**Windows screen-share**
+<img src=".github/README_screenshots/windows_screen-share.png">
+
+</details>
+
 ### Main features
 
 - Vencord pre-installed.
@@ -86,7 +102,6 @@ pnpm package --linux pacman
 pnpm package:dir
 ```
 
-## Screenshots
-
-![](https://github.com/Vencord/Vesktop/assets/45497981/8608a899-96a9-4027-9725-2cb02ba189fd)
-![](https://github.com/Vencord/Vesktop/assets/45497981/8701e5de-52c4-4346-a990-719cb971642e)
+# Licensing
+This project is licensed under the GNU General Public License (GPL) version 3, or, at your option, any later version.
+See the `LICENSE` file for more details.
