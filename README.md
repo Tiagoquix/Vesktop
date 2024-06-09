@@ -3,23 +3,7 @@
 <img align="right" width="64" src="static/shiggy.gif">
 <img align="right" width="64" src="https://avatars.githubusercontent.com/u/113042587">
 
-Vesktop is a custom Discord desktop app.
-
-## Screenshots
-
-<details>
-<summary>Click to expand</summary>
-
-### Settings page
-<img src=".github/README_screenshots/settings_page.png">
-
-### Linux screen-share
-<img src=".github/README_screenshots/linux_screen-share.png">
-
-### Windows screen-share
-<img src=".github/README_screenshots/windows_screen-share.png">
-
-</details>
+Vesktop is a custom Discord Desktop app.
 
 ## Main features
 
@@ -33,6 +17,19 @@ Vesktop is a custom Discord desktop app.
 
 - Global keybinds.
 - For other things, see the [roadmap](https://github.com/Vencord/Vesktop/issues/324).
+
+## Screenshots
+
+<table>
+<tr>
+<th colspan="3">Linux Screenshare</th>
+</tr>
+<tr>
+<td><img src="https://github.com/Vencord/Vesktop/assets/37805707/536a4275-eb37-46a3-8f24-cf351e5ef10e"/></td>
+<td><img src="https://github.com/Vencord/Vesktop/assets/37805707/4d1e1136-b7ac-4db5-afaf-0f8e425157db"/></td>
+<td><img src="https://github.com/Vencord/Vesktop/assets/37805707/536a4275-eb37-46a3-8f24-cf351e5ef10e"/></td>
+</tr>
+</table>
 
 ## Installing
 
@@ -56,8 +53,7 @@ Flathub provides both `amd64` (`x86_64`) and `arm64` (`aarch64`) builds on a sin
 
 [![Download on Flathub](https://dl.flathub.org/assets/badges/flathub-badge-en.svg)](https://flathub.org/apps/dev.vencord.Vesktop)
 
-If you prefer a native package for your distribution, check the list below.
-
+If you prefer a native package for your distribution, check the list below.  
 To check which version is appropriate for your system, type `uname -m` in a terminal window.
 
 - `amd64` (`x86_64`)
@@ -74,7 +70,9 @@ To check which version is appropriate for your system, type `uname -m` in a term
 
 #### Community packages
 
-There are unofficial packages created by the community. They are not officially supported by us; so, before reporting issues, please first confirm the issue also happens on official builds. When in doubt, consult with their packager first. The Flatpak and AppImage should work on any distro that [supports them](https://flatpak.org/setup/), so I recommend you just use those instead!
+> [!WARNING]  
+> There are unofficial packages created by the community. They are not officially supported by us; so, before reporting issues, please first confirm the issue also happens on official builds. When in doubt, consult with their packager first.  
+> The Flatpak and AppImage should work on any distro that [supports them](https://flatpak.org/setup/), so I recommend you just use those instead!
 
 - Arch Linux: [Vesktop on the Arch User Repository (AUR)](https://aur.archlinux.org/packages?K=vesktop)
 - NixOS: https://wiki.nixos.org/wiki/Discord#Vesktop
@@ -82,7 +80,7 @@ There are unofficial packages created by the community. They are not officially 
 
 ## Building from source
 
-Packaging will create builds in the dist/ folder
+Packaging will create builds in the <kdb>dist/</kbd> folder
 
 ```sh
 git clone https://github.com/Vencord/Vesktop
@@ -103,6 +101,6 @@ pnpm package:dir
 ```
 
 # Licensing
-This project is licensed under the GNU General Public License (GPL) version 3, or, at your option, any later version.
 
-See the `LICENSE` file for more details.
+This project is licensed under the GNU General Public License (GPL) version 3, or, at your option, any later version.  
+See the [<kdb>LICENSE</kbd>](LICENSE) file for more details.
