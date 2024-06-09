@@ -5,7 +5,7 @@
 
 Vesktop is a custom Discord desktop app.
 
-### Screenshots
+## Screenshots
 
 <details>
 <summary>Click to expand</summary>
@@ -21,7 +21,7 @@ Vesktop is a custom Discord desktop app.
 
 </details>
 
-### Main features
+## Main features
 
 - Vencord pre-installed.
 - Much more lightweight and faster than the official Discord app.
