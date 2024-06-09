@@ -5,7 +5,7 @@
 
 Vesktop is a custom Discord desktop app.
 
-## Screenshots
+### Screenshots
 
 <details>
 <summary>Click to expand</summary>
