@@ -104,4 +104,5 @@ pnpm package:dir
 
 # Licensing
 This project is licensed under the GNU General Public License (GPL) version 3, or, at your option, any later version.
+
 See the `LICENSE` file for more details.
