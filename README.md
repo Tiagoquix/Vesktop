@@ -71,7 +71,7 @@ To check which version is appropriate for your system, type `uname -m` in a term
 
 #### Community packages
 
-> [!INFO]
+> [!NOTE]
 > There are unofficial packages created by the community. They are not officially supported by us; so, before reporting issues, please first confirm the issue also happens on official builds. When in doubt, consult with their packager first.
 > The Flatpak and AppImage should work on any distro that [supports them](https://flatpak.org/setup/), so I recommend you just use those instead!
 
