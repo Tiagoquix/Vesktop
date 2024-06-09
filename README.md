@@ -10,13 +10,13 @@ Vesktop is a custom Discord desktop app.
 <details>
 <summary>Click to expand</summary>
 
-**Settings page**
+### Settings page
 <img src=".github/README_screenshots/settings_page.png">
 
-**Linux screen-share**
+### Linux screen-share
 <img src=".github/README_screenshots/linux_screen-share.png">
 
-**Windows screen-share**
+### Windows screen-share
 <img src=".github/README_screenshots/windows_screen-share.png">
 
 </details>
