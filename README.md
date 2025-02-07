@@ -77,3 +77,9 @@ pnpm package --linux pacman
 # Or package to a directory only
 pnpm package:dir
 ```
+
+## License
+See the [`COPYING`](COPYING) file for details.
+
+## Contact
+You can contact us via our Discord server (`#🖥-vesktop-development` channel): https://discord.gg/D9uwnFnqmd
