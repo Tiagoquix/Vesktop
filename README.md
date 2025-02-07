@@ -77,3 +77,25 @@ pnpm package --linux pacman
 # Or package to a directory only
 pnpm package:dir
 ```
+
+## License
+
+    Vesktop, a desktop app aimed to improve Linux support and provide a snappier Discord experience.
+
+    Copyright (C) 2025 Vendicated and Vencord contributors
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+### Contact
+You can contact us via our Discord server (`#🖥-vesktop-development` channel): https://discord.gg/D9uwnFnqmd
