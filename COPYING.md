@@ -5,6 +5,6 @@ The Vesktop app is provided under:
 Being under the terms of the GNU General Public License version 3 or later,
 according with:
 
-    [LICENSE](https://github.com/Vencord/Vesktop/blob/main/LICENSE)
+    LICENSE
 
 All contributions to the Vesktop app are subject to this COPYING file.
